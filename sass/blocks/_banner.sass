@@ -1,0 +1,86 @@
+.banner 
+  position: relative
+  &::before
+    position: absolute
+    content: ''
+    top: 0
+    right: 0
+    width: 853px
+    height: 100%
+    background: url(../images/main-bg.svg) no-repeat right top
+    background-size: contain
+  &-wrapper
+    min-height: 100vh
+    padding: 150px 0
+  &-content
+    width: 40%
+  &-img
+    width: 51%
+    img
+      display: block
+      max-width: 100%
+      height: auto
+  &-icon
+    display: block
+    width: 40px
+    height: 40px
+    background: url(../images/hi.png) no-repeat center
+    background-size: contain
+  &-title
+    margin: 10px 0
+    font-weight: normal
+    font-size: 36px
+    line-height: 42px
+    color: $color-title
+  &-text
+    margin: 10px 0 20px
+    font-weight: 300
+    font-size: 15px
+    line-height: 19px
+    color: $color-text
+  &-bold
+    display: inline-block
+    font-weight: normal
+    font-size: 15px
+    line-height: 19px
+    color: $color-title
+  &-list
+    padding: 0
+    list-style: none
+    margin: 8px 0 10px
+    &-item
+      padding-bottom: 8px
+      font-weight: 300
+      font-size: 14px
+      line-height: 18px
+      color: $color-title
+      position: relative
+      padding-left: 14px
+      &::before
+        display: inline-block
+        content: ''
+        position: absolute
+        top: 7px
+        left: 0
+        width: 4px
+        height: 4px
+        margin-right: 9px
+        border-radius: 100%
+        background: #489AFF
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

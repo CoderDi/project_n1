@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<title>Project N1 - your best project ever</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<meta name="format-detection" content="telephone=no">
+<link rel="stylesheet" href="libs/rangeslider/rangeslider.css">
+<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <header class="header">
+    <div class="wrapper">
+      <div class="header-wrapper flex">
+        <a href="/" class="header-logo"><img src="images/logo.svg" alt="" class="header-logo-img"></a>
+
+        <div class="menu">
+          <div class="menu-butter js-butter"><i></i></div>
+          <div class="menu-container flex">
+            <ul class="menu-list flex">
+              <li class="menu-item"><a href="" class="menu-link">Это меню</a></li>
+              <li class="menu-item"><a href="" class="menu-link">Должно</a></li>
+              <li class="menu-item"><a href="" class="menu-link">Быть</a></li>
+              <li class="menu-item"><a href="" class="menu-link">Закрепленным</a></li>
+              <li class="menu-item"><a href="" class="menu-link">При скролле</a></li>
+            </ul>
+
+            <button class="btn header-btn js-modal">Модалка</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="banner">
+    <div class="wrapper">
+      <div class="banner-wrapper flex">
+        <div class="banner-content">
+          <i class="banner-icon"></i>
+          <h1 class="banner-title">Привет!</h1>
+          <p class="banner-text">Группа компаний Freematiq и MITRA ищет себе клевого верстальщика. На постоянную работу в офисе или периодическую  работу по удаленке. Хотим предложить тебе вместо скучных тестовых заданий – сверстать эту страницу.</p>
+          <b class="banner-bold">В своей работе мы используем:</b>
+          <ul class="banner-list">
+            <li class="banner-list-item">HTML5, CSS3</li>
+            <li class="banner-list-item">Bootstrap 4</li>
+            <li class="banner-list-item">Jade, Pug</li>
+            <li class="banner-list-item">Less, SCSS</li>
+            <li class="banner-list-item">Иконочные шрифты</li>
+            <li class="banner-list-item">SVG иллюстрации</li>
+          </ul>
+          <p class="banner-text">Не ограничиваем этими технологиями, верстай как удобно.</p>
+        </div>
+
+        <div class="banner-img"><img src="images/main-img.svg" alt=""></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="tz">
+    <div class="wrapper">
+      <div class="tz-wrapper">
+        <p class="tz-text">Это твое первое задание в нашей компании. Если оно покажется тебе интересным и его реализация нам понравится – добро пожаловать в команду.</p>
+        <div class="tz-flex">
+          <div class="tz-item">
+            <i class="tz-item-icon tz-item-icon--height"></i>
+            <span class="tz-item-text">Первый блок на
+              всю высоту экрана</span>
+          </div>
+
+          <div class="tz-item">
+            <i class="tz-item-icon tz-item-icon--responsive"></i>
+            <span class="tz-item-text">Отзывчивая
+              верстка</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="wie">
+    <div class="wrapper">
+      <div class="wie-wrapper flex">
+        <div class="wie-img-container">
+          <img src="images/wie-img1.png" alt="" class="wie-img1">
+          <img src="images/wie-img2.png" alt="" class="wie-img2">
+        </div>
+
+        <div class="wie-content">
+          <i class="wie-icon"></i>
+          <h2 class="wie-title">Как ускорить процесс</h2>
+          <p class="wie-text">Чтобы иметь доступ ко всем функциям и возможностям Figma, которые облегчат и ускорят процесс верстки, зарегистрируйся и залогинься в системе.</p>
+          <button class="btn wie-btn">Зарегистрироваться</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="rate">
+    <div class="wrapper">
+      <div class="rate-wrapper">
+        <div class="rate-flex flex">
+          <div class="rate-content">
+            <i class="rate-icon"></i>
+            <h2 class="rate-title">Оцени себя</h2>
+            <p class="rate-text">Попробуй максимально объективно и честно оценить свои знания верстки по следующей шкале. И да, её тоже нужно сверстать.</p>
+          </div>
+
+          <div class="rate-circles">
+            <div class="rate-circle rate-circle-years" data-value="55">
+              <svg
+                class="rate-ring"
+                width="120"
+                height="120">
+                <circle
+                  class="rate-ring__circle"
+                  stroke="#C78FF9"
+                  stroke-width="4"
+                  stroke-linecap="round"
+                  fill="transparent"
+                  r="58"
+                  cx="60"
+                  cy="60"/>
+              </svg>
+              <span class="rate-circle-text">
+                <b>5</b>
+                Лет
+              </span>
+            </div>
+
+            <div class="rate-circle rate-circle-projects" data-value="60">
+              <svg
+                class="rate-ring"
+                width="120"
+                height="120">
+                <circle
+                  class="rate-ring__circle"
+                  stroke="#FFC35A"
+                  stroke-width="4"
+                  stroke-linecap="round"
+                  fill="transparent"
+                  r="58"
+                  cx="60"
+                  cy="60"/>
+              </svg>
+              <span class="rate-circle-text">
+                <b>> 200</b>
+                Проектов
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <div class="rate-line">
+          <input type="range" name="position" id="position" value="2" step="1" min="0" max="4" class="rate-input" disabled>
+          <div class="rate-line-spans">
+            <span>Intern</span>
+            <span>Junior</span>
+            <span>Middle</span>
+            <span>Senior</span>
+            <span>Lead</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section slider">
+    <div class="wrapper">
+      <div class="section-header">
+        <i class="section-icon section-icon--slider"></i>
+        <h2 class="section-title">Сверстаешь такой слайдер?</h2>
+        <p class="section-text">Это не так сложно, на самом деле. Сложнее придумать как он будет адаптироваться. Различные модные эффекты так же будут оценены по достоинству.</p>
+      </div>
+
+      <div class="slider-flex">
+        <div class="slider-navi">
+          <div class="slider-navi-arrows">
+            <span class="slider-navi-arrow slider-navi-arrow--next"></span>
+            <span class="slider-navi-arrow slider-navi-arrow--prev"></span>
+          </div>
+
+          <div class="slider-navi-text">
+            <b class="slider-current">01</b> / <span class="slider-count">03</span>
+          </div>
+        </div>
+
+        <div class="slider-container js-slider">
+          <div class="slide">
+            <div class="slide-container">
+              <i class="slide-like js-slide-like active"></i>
+              <div class="slide-img">
+                <img src="images/item1.png" alt="">
+              </div>
+
+              <div class="slide-content">
+                <a href="#" class="slide-title">New Balance 840 90s</a>
+                <p class="slide-text">840 90s Running объединили в себе спортивную эстетику и необходимый в городском ритме комфорт.</p>
+                <span class="slide-price">
+                  10 990 ₽
+                  <span class="slide-price--old">12 990 ₽</span>
+                </span>
+                <div class="slide-bottom">
+                  <div class="slide-colors">
+                    <span>Цвет:</span>
+                    <i class="slide-color slide-color--red active"></i>
+                    <i class="slide-color slide-color--blue"></i>
+                    <i class="slide-color slide-color--orange"></i>
+                  </div>
+
+                  <button class="slide-btn js-slide-btn"></button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="slide">
+            <div class="slide-container">
+              <i class="slide-like js-slide-like"></i>
+              <div class="slide-img">
+                <img src="images/item2.png" alt="">
+              </div>
+
+              <div class="slide-content">
+                <a href="#" class="slide-title">New Balance 1500</a>
+                <p class="slide-text">Встречайте новые расцветки бессмертной классики!</p>
+                <span class="slide-price">
+                  13 990 ₽
+                  <span class="slide-price--old">19 990 ₽</span>
+                </span>
+                <div class="slide-bottom">
+                  <div class="slide-colors">
+                    <span>Цвет:</span>
+                    <i class="slide-color active slide-color--purple"></i>
+                    <i class="slide-color slide-color--black"></i>
+                  </div>
+
+                  <button class="slide-btn js-slide-btn"></button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="slide">
+            <div class="slide-container">
+              <i class="slide-like js-slide-like"></i>
+              <div class="slide-img">
+                <img src="images/item3.png" alt="">
+              </div>
+
+              <div class="slide-content">
+                <a href="#" class="slide-title">New Balance 997H</a>
+                <p class="slide-text">В 1991 году New Balance представил миру модель 997, которая вывела линейку 99X на совершенно новый уровень технологий и эстетики</p>
+                <span class="slide-price">
+                  10 990 ₽
+                  <span class="slide-price--old">12 990 ₽</span>
+                </span>
+                <div class="slide-bottom">
+                  <div class="slide-colors">
+                    <span>Цвет:</span>
+                    <i class="slide-color active slide-color--purple"></i>
+                    <i class="slide-color slide-color--blue"></i>
+                    <i class="slide-color slide-color--gray"></i>
+                  </div>
+
+                  <button class="slide-btn js-slide-btn"></button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="slide">
+            <div class="slide-container">
+              <i class="slide-like js-slide-like"></i>
+              <div class="slide-img">
+                <img src="images/item4.png" alt="">
+              </div>
+
+              <div class="slide-content">
+                <a href="#" class="slide-title">New Balance 247</a>
+                <p class="slide-text">840 90s Running объединили в себе спортивную эстетику и необходимый в городском ритме комфорт.</p>
+                <span class="slide-price">
+                  10 990 ₽
+                  <span class="slide-price--old">12 990 ₽</span>
+                </span>
+                <div class="slide-bottom">
+                  <div class="slide-colors">
+                    <span>Цвет:</span>
+                    <i class="slide-color active slide-color--red"></i>
+                    <i class="slide-color slide-color--blue"></i>
+                    <i class="slide-color slide-color--orange"></i>
+                  </div>
+
+                  <button class="slide-btn js-slide-btn"></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="section tables">
+    <div class="wrapper">
+      <div class="section-header">
+        <i class="section-icon section-icon--tables"></i>
+        <h2 class="section-title">Время таблиц</h2>
+        <p class="section-text">Какой серьезный проект может обойтись без таблиц? Мы не сомневаемся, что ты умеешь их верстать, попробуй реализовать такую таблицу.</p>
+      </div>
+
+      <div class="table js-table">
+        <table class="table-container">
+          <tr>
+            <th></th>
+            <th>
+              <i class="table-icon table-icon--standart"></i>
+              <b class="table-caption">Стандартный</b>
+              Это самый стандартный тариф, который подойдет для новых пользователей
+            </th>
+            <th>
+              <i class="table-icon table-icon--optima"></i>
+              <b class="table-caption">Оптимальный</b>
+              Это самый стандартный тариф, который подойдет для новых пользователей
+            </th>
+            <th>
+              <i class="table-icon table-icon--premium"></i>
+              <b class="table-caption">Премиум</b>
+              Это самый стандартный тариф, который подойдет для новых пользователей
+            </th>
+          </tr>
+  
+          <tr>
+            <td>Место на диске</td>
+            <td>1 GB</td>
+            <td>5 GB</td>
+            <td>100 GB</td>
+          </tr>
+          <tr>
+            <td>Количество проектов</td>
+            <td>1</td>
+            <td>10</td>
+            <td>∞</td>
+          </tr>
+          <tr>
+            <td>Пользователей в проекте</td>
+            <td>2</td>
+            <td>5</td>
+            <td>∞</td>
+          </tr>
+          <tr>
+            <td>Интерактивное редактирование</td>
+            <td>—</td>
+            <td><i class="table-check table-check--optima"></i></td>
+            <td><i class="table-check table-check--premium"></i></td>
+          </tr>
+          <tr>
+            <td>Техническая поддержка (в сутки)</td>
+            <td>1 час</td>
+            <td>3 часа</td>
+            <td>12 часов</td>
+          </tr>
+          <tr>
+            <td>Премиум ресурсы</td>
+            <td>—</td>
+            <td>—</td>
+            <td><i class="table-check table-check--premium"></i></td>
+          </tr>
+          <tr>
+            <td>Отключение рекламы</td>
+            <td>—</td>
+            <td><i class="table-check table-check--optima"></i></td>
+            <td><i class="table-check table-check--premium"></i></td>
+          </tr>
+          <tr>
+            <td>Приложения для iOS и Android</td>
+            <td>—</td>
+            <td>—</td>
+            <td><i class="table-check table-check--premium"></i></td>
+          </tr>
+        </table>
+      </div>
+      
+    </div>
+  </section>
+
+  <section class="section bottom">
+    <div class="wrapper">
+      <div class="section-header">
+        <i class="section-icon section-icon--bottom"></i>
+        <h2 class="section-title">Всё готово? Высылай нам!</h2>
+        <p class="section-text">Когда всё будет готово, высылай архив с версткой или ссылку на облачный файл на нашу почту, указав тему письма “Тестовое задание для верстальщиков”.</p>
+        <a href="mailto:hr@freematiq.com" class="bottom-mail">hr@freematiq.com</a>
+      </div>
+    </div>
+  </section>  
+  
+  <footer class="footer">
+    <div class="wrapper">
+      <div class="footer-wrapper flex">
+        <span class="footer-copyright">© 2019, Project N1 - Special for you, Все права защищены</span>
+
+        <span class="footer-made">Сделано во <a class="footer-made-link" href="">Freematiq</a></span>
+      </div>
+    </div>
+  </footer>
+
+  <div class="popup">
+    <div class="popup-bg js-popup-close"></div>
+    <div class="popup-content">
+      <div class="popup-close js-popup-close"></div>
+      <strong class="popup-title">Это пример модалки</strong>
+      <span class="popup-text">Можно использовать Bootstrap, но обычно использую свой шаблон:)</span>
+    </div>
+  </div>   
+
+  <script src="libs/jquery/jquery-3.3.1.min.js"></script>
+  <script src="libs/slick/slick.min.js"></script>
+  <script src="libs/rangeslider/rangeslider.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

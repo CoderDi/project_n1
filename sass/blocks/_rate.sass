@@ -1,0 +1,129 @@
+.rate
+  margin: 85px 0 90px
+  &-wrapper
+    background: #354A62
+    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.1)
+    border-radius: 8px
+    padding: 30px 45px
+  &-flex
+    align-items: flex-start
+  &-content
+    max-width: 535px
+  &-icon
+    display: block
+    width: 40px
+    height: 40px
+    margin-bottom: 9px
+    background: url(../images/wow.png) no-repeat center
+    background-size: contain
+  &-title
+    margin: 9px 0
+    font-weight: normal
+    font-size: 30px
+    line-height: 35px
+    color: #FFFFFF
+  &-text
+    margin: 0
+    font-weight: 300
+    font-size: 15px
+    line-height: 19px
+    color: #C4CCD6
+  &-line
+    margin-top: 30px
+    &-spans
+      padding-top: 12px
+      display: flex
+      justify-content: space-between
+      font-weight: 300
+      font-size: 15px
+      line-height: 19px
+      color: #FFFFFF
+      span
+        display: block
+        position: relative
+        padding-top: 9px
+        text-align: center
+        width: 45px
+        &:first-child
+          text-align: left
+          margin-right: -13px
+          &::before
+            left: 0
+        &:last-child
+          text-align: right
+          margin-left: -13px
+          &::before
+            left: auto
+            right: 0
+        &::before
+          position: absolute
+          content: ''
+          width: 3px
+          height: 3px
+          border-radius: 100%
+          top: 0
+          left: calc(50% - 1px)
+          background: #FFFFFF
+          opacity: 0.5
+  &-circle
+    position: relative
+    width: 120px
+    height: 120px
+    border-radius: 100%
+    margin-left: 34px
+    flex-shrink: 0
+    border: 4px solid #283C54
+    display: flex
+    justify-content: center
+    align-items: center
+    text-align: center    
+    &-text
+      font-weight: 300
+      font-size: 13px
+      line-height: 17px
+      color: #B2BBC8
+      b
+        display: block
+        font-weight: normal
+        font-size: 30px
+        line-height: 35px
+        color: #FFFFFF
+    &s
+      display: flex
+  &-ring
+    position: absolute
+    top: -4px
+    left: -4px
+    width: 120px
+    height: 120px
+    &__circle 
+      transition: 0.35s stroke-dashoffset
+      transform: rotate(-90deg)
+      transform-origin: 50% 50%
+
+
+
+.rangeslider
+  height: 6px
+  background: #23364C
+  border-radius: 3px
+  &--disabled
+    opacity: 1
+  &__fill
+    background: linear-gradient(90deg, #BFA4FF 0.43%, #FF4F72 33.51%, #FFC359 70.96%)
+    border-radius: 3px
+  & &__handle
+    width: 16px
+    height: 16px
+    background: #FFFFFF
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.15)
+    top: -5px
+
+
+
+
+
+
+
+
+

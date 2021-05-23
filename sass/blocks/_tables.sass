@@ -1,0 +1,87 @@
+.table
+  border: 1px solid #D7E1EC
+  box-sizing: border-box
+  border-radius: 5px
+  overflow: hidden
+  &-container
+    border-collapse: collapse
+    border-spacing: 0
+    width: 100%
+    th, td
+      padding: 20px
+      font-weight: 300
+      font-size: 13px
+      line-height: 17px
+      text-align: center
+      color: $color-text
+      width: 240px
+      border-right: 1px solid #E3E8EF
+      border-bottom: 1px solid #E3E8EF
+      &:first-child
+        width: calc(100% - 720px)
+      &:last-child
+        border-right: none
+      &:nth-child(2)
+        background: #F2F8FF
+      &:nth-child(3)
+        background: #F7F4FF
+      &:nth-child(4)
+        background: #FFF1F8
+    td
+      height: 50px
+      padding: 15px 20px
+      font-weight: normal
+      font-size: 15px
+      line-height: 18px
+      color: $color-title
+      &:first-child
+        text-align: left
+    tr:last-child td
+      border-bottom: none
+  &-td-title
+    font-size: 12px
+    line-height: 16px
+    margin-bottom: 5px
+    display: block
+    color: $color-text
+    
+  &-caption
+    display: block
+    margin-bottom: 7px
+    font-weight: normal
+    font-size: 20px
+    line-height: 23px
+    color: $color-title
+  &-icon
+    display: block
+    margin: 0 auto 10px
+    height: 53px
+    background-repeat: no-repeat
+    background-size: contain
+    background-position: center
+    &--standart
+      background-image: url(../images/icons.svg#standart)
+    &--optima
+      background-image: url(../images/icons.svg#optima)
+    &--premium
+      background-image: url(../images/icons.svg#premium)
+  &-check
+    display: inline-block
+    width: 16px
+    height: 16px
+    background-repeat: no-repeat
+    background-size: contain
+    background-position: center
+    &--standart
+      background-image: url(../images/icons.svg#check-standart)
+    &--optima
+      background-image: url(../images/icons.svg#check-optima)
+    &--premium
+      background-image: url(../images/icons.svg#check-premium)
+
+
+
+
+
+
+
